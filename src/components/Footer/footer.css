@@ -1,5 +1,143 @@
+
+.top-footer {
+    background-color: #3FD0D4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+.top-footer button {
+    color: #000;
+    background-color: white;
+    padding: 20px 5rem;
+    border: none;
+    font-weight: 700;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+.top-footer button:hover {
+    background-color: #419ea1;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
 .footer {
     background-color: #212121;
     height: 300px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20% 5%;
+}
+.footer .col {
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.footer .col .icon {
+    margin-right: 15px;
+}
+.footer .col .info {
+    margin: 20px 0;
+    color: #838383;
+    text-align: center;
+}
+.footer .col .title {
+    text-align: center;
+}
+.footer .col .form-row {
+    background-color: #595959;
+    padding: 15px 20px;
+    margin: 4px 0;
+    border-radius: 3px;
+}
+.footer .col .email, .footer .col .phone, .footer .col .address {
+    font-size: .95rem;
+    font-weight: 400;
+    margin: 2px 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer .col .email:hover, .footer .col .phone:hover, .footer .col .address:hover {
+    color: #3FD0D4;
+    transition: 0.3s;
+}
+.footer .col .form-row input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.footer .col .form-row label {
+    margin-right: 20px;
+}
+.footer .col .form-row input::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+.footer .col button {
+    background-color: #3FD0D4;
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer .col button:hover {
+    color: #000;
+    background-color: white;
+    transition: 0.3s;
+}
+.footer .col .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .col .gallery .first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.footer .col .gallery .second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.footer .col .gallery .first-row img, .footer .col .gallery .second-row img {
+    width: 50px;
+    border-radius: 3px;
+}
+.footer .col .gallery .first-row img:hover , .footer .col .gallery .second-row img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.copy {
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy p {
+    font-size: 0.8rem;
+    margin: 20px 0;
+}
+.copy p span {
+    color: #838383;
 }
