@@ -16,7 +16,7 @@ a {
   list-style-type: none;
   display: inline-block;
   padding: 0 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .header .navbar ul li .link-item {
   color: #303030;

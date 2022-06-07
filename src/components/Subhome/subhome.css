@@ -28,3 +28,57 @@
     margin-top: 15px;
     color: #838383;
 }
+.destination {
+    background-image: url(../../img/background-img.jpg);
+    padding: 40px 0;
+}
+.destination .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 30px auto;
+    padding: 40px 0;
+}
+.destination .text-box .sub-title {
+    font-family: 'Satisfy', cursive;
+    color: #3FD0D4;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.destination .text-box .title {
+    font-size: 4rem;
+}
+.destination .text-box .info {
+    color: #838383;
+    text-align: center;
+}
+.destination .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.destination .images .box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.destination .images .box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.destination .images .box img{
+    max-width: 300px;
+    border-radius: 50%;
+    
+}
+.destination .images .box .title {
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: 'Satisfy', cursive;
+    color: white;
+
+}

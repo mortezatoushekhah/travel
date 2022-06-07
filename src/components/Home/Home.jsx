@@ -1,5 +1,5 @@
 import "./home.css";
-import Slider from "../../img/slide.jpg";
+import Slider from "../../img/agent.jpg";
 import Tour from "../../img/tarragona.jpg";
 import Spain from "../../img/spain.jpg";
 import Madrid from "../../img/madrid.jpg";
